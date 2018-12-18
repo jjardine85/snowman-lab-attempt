@@ -21,12 +21,6 @@ end
 # end
 
 
-def test_true_or_false
-  assert_equal(true, @word1.guess("n"))
-end
 
-def test_true_or__false
-  assert_equal(false, @word1.guess("m"))
-end
 
 end
