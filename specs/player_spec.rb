@@ -16,5 +16,8 @@ def test_get_number_of_lives
   assert_equal(6, @name1.number_of_lives)
 end
 
+def test_wrong_guess
+  assert_equal(5, @name1.wrong_guess)
+end
 
 end

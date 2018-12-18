@@ -28,4 +28,7 @@ end
 def test_hide_method_works_with_spaces
   assert_equal("******* ****", @game1.change_word(@word1.word))
 end
+
+
+
 end

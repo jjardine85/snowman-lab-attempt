@@ -20,11 +20,13 @@ end
 #   assert_equal("x", @word1.guess)
 # end
 
-def test_change_hidden_word
-  assert_equal("********", @word1.change_hidden_word("Codeclan"))
+
+def test_true_or_false
+  assert_equal(true, @word1.guess("n"))
 end
 
-# myArray = "ABCDEFGHIJKLMNOP".split(//)
-
+def test_true_or__false
+  assert_equal(false, @word1.guess("m"))
+end
 
 end

@@ -7,12 +7,11 @@ def initialize(word)
   # @guess = guess
 end
 
-# def take_a_guess(letter)
-#   if letter
-# end
-
-
-
-
+def guess(letter)
+  if word.include? letter
+    return true
+  end
+  else false
+end
 
 end

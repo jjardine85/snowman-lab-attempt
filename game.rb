@@ -10,8 +10,10 @@ def initialize(player, hidden_word, guessed_letter)
   @guessed_letter = guessed_letter
 end
 # thanks stackoverflow!
-def change_word(word)
-   word.gsub(/\S/, '*')
+def change_word(hidden_word)
+   hidden_word.gsub(/\S/, '*')
 end
+
+def
 
 end

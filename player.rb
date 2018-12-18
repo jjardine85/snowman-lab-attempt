@@ -7,7 +7,9 @@ def initialize(name, number_of_lives)
   @number_of_lives = number_of_lives
 end
 
-
+def wrong_guess
+  number_of_lives - 1
+end
 
 
 end
