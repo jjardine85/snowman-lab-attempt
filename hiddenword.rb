@@ -1,6 +1,6 @@
 class HiddenWord
 
-attr_reader :word
+attr_accessor :word
 
 def initialize(word)
   @word = word
@@ -10,5 +10,9 @@ end
 # def take_a_guess(letter)
 #   if letter
 # end
+
+
+
+
 
 end

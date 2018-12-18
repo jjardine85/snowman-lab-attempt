@@ -5,7 +5,7 @@ require_relative("../hiddenword")
 class HiddenWordTest < Minitest::Test
 
 def setup
- @word1 = HiddenWord.new("Codeclan", "x")
+ @word1 = HiddenWord.new("Codeclan")
 end
 
 def test_get_hidden_word
@@ -19,6 +19,12 @@ end
 # def test_get_guessed_letter
 #   assert_equal("x", @word1.guess)
 # end
+
+def test_change_hidden_word
+  assert_equal("********", @word1.change_hidden_word("Codeclan"))
+end
+
+# myArray = "ABCDEFGHIJKLMNOP".split(//)
 
 
 end
