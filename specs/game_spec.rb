@@ -22,10 +22,10 @@ def test_objects_work
 end
 
 def test_hide_method_works
-  assert_equal("********", @game.change_hidden_word(@word0.word))
+  assert_equal("********", @game.change_word(@word0.word))
 end
 
 def test_hide_method_works_with_spaces
-  assert_equal("******* ****", @game1.change_hidden_word(@word1.word))
+  assert_equal("******* ****", @game1.change_word(@word1.word))
 end
 end
